@@ -80,7 +80,9 @@ body {
 .css-box-para {
 	margin:0;
 }
-
+.content-image {
+	margin-left: 5px;
+}
 
 
 /*pre tag*/
