@@ -1,11 +1,14 @@
 body {
 	background-color: #7f8c8d;
+	
+}
+.full-body {
 	margin: 20px auto;
 	width:503px;
 	font-family: sans-serif;
 	font-size: 12px;
+	position: relative;
 }
-/*This is going to have to be renamed when adding the box to the right*/
 .header {
 	background-color: #2ecc71;
 	border-bottom: 5px inset #27ae60;
@@ -171,9 +174,29 @@ body {
 	border-left: 1px solid #bdc3c7;
 	padding-left: 10px;
 }
-
-
-
+.side-box {
+	position: absolute;
+	background-color: #ecf0f1;
+	left:510px;
+	top:9%;
+	width: 175px;
+	border-bottom: 3px outset #bdc3c7;
+	line-height: 20px;
+}
+.side-box-list {
+	list-style-type: none;
+	padding-left:20px;
+	margin:3px 0px;
+}
+.side-box-link {
+	text-decoration: none;
+	color: #7f8c8d;
+}
+.side-box-head {
+	font-size: 12px;
+	padding: 10px 0px 0px 10px;
+	margin:0;
+}
 
 
 
