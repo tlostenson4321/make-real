@@ -22,14 +22,16 @@ body {
 	border-bottom: 3px outset #7f8c8d;
 }
 .nav-list {
-	padding:5px 5px 5px 270px;
+	padding:5px 5px 5px 250px;
 	margin:0;
+	list-style-type: none;
 }
 .nav-item {
 	display: inline-block;
 	color:white;
 	font-size: 12px;
 	margin:7px;
+	text-decoration: none;
 }
 .content-box {
 	background-color: #ecf0f1;
@@ -178,7 +180,7 @@ body {
 	position: absolute;
 	background-color: #ecf0f1;
 	left:510px;
-	top:9%;
+	top:263px;
 	width: 175px;
 	border-bottom: 3px outset #bdc3c7;
 	line-height: 20px;
